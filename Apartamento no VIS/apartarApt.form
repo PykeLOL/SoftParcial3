@@ -1,0 +1,77 @@
+{
+  "components": [
+    {
+      "text": "# Apartamento escogido",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0dcskp2",
+        "columns": null
+      },
+      "id": "Field_15wphcl"
+    },
+    {
+      "values": [
+        {
+          "label": "tipo1",
+          "value": "tipo1"
+        },
+        {
+          "label": "tipo2",
+          "value": "tipo2"
+        },
+        {
+          "label": "tipo3",
+          "value": "tipo3"
+        }
+      ],
+      "label": "Select",
+      "type": "select",
+      "layout": {
+        "row": "Row_0dcskp2",
+        "columns": null
+      },
+      "id": "Field_085h0yj",
+      "key": "tipoApt"
+    },
+    {
+      "text": "# Método de pago cuota inicial",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1cpit53",
+        "columns": null
+      },
+      "id": "Field_10vhrrj"
+    },
+    {
+      "values": [
+        {
+          "label": "contado",
+          "value": "contado"
+        },
+        {
+          "label": "plandepagos",
+          "value": "plandepagos"
+        }
+      ],
+      "label": "Select",
+      "type": "select",
+      "layout": {
+        "row": "Row_1cpit53",
+        "columns": null
+      },
+      "id": "Field_1w267qg",
+      "key": "metodoDePago"
+    }
+  ],
+  "type": "default",
+  "id": "apartarApt",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}

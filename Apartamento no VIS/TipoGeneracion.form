@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Asesor",
+          "value": "Asesor"
+        },
+        {
+          "label": "Worker",
+          "value": "Worker"
+        }
+      ],
+      "label": "Tipo de generacion de codigo",
+      "type": "select",
+      "layout": {
+        "row": "Row_1rn7m3y",
+        "columns": null
+      },
+      "id": "Field_0u296o1",
+      "key": "generacion"
+    }
+  ],
+  "type": "default",
+  "id": "tipoGeneracion",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}

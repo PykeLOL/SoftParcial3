@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "text": "# Escoja método de pago",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_07f77xb",
+        "columns": null
+      },
+      "id": "Field_10xshq6"
+    },
+    {
+      "values": [
+        {
+          "label": "Contado",
+          "value": "Contado"
+        },
+        {
+          "label": "Plan-pagos",
+          "value": "Plan-pagos"
+        }
+      ],
+      "label": "Método de pago",
+      "type": "select",
+      "layout": {
+        "row": "Row_07f77xb",
+        "columns": null
+      },
+      "id": "Field_111f09l",
+      "key": "metodoDePago"
+    }
+  ],
+  "type": "default",
+  "id": "metodoPago",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}

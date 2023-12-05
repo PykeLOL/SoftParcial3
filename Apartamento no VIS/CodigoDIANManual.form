@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "label": "Ingresar codigo DIAN del cliente",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0zti8rz",
+        "columns": null
+      },
+      "id": "Field_0axa1f2",
+      "key": "DIANCode"
+    }
+  ],
+  "type": "default",
+  "id": "IngresarCodigo",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}

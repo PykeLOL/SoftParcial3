@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "text": "# Pago recibido",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1qxcle9",
+        "columns": null
+      },
+      "id": "Field_1xsbof2"
+    },
+    {
+      "label": "Number",
+      "type": "number",
+      "layout": {
+        "row": "Row_1qxcle9",
+        "columns": null
+      },
+      "id": "Field_1mlsxa7",
+      "key": "pago"
+    }
+  ],
+  "type": "default",
+  "id": "recibirPago",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}

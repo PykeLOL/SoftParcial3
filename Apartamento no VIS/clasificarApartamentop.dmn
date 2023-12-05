@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:biodi="http://bpmn.io/schema/dmn/biodi/2.0" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="Definitions_0r51jqs" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.15.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.19.0">
+  <decision id="Clasificar" name="Clasificar apartamento">
+    <decisionTable id="DecisionTable_15rzklk">
+      <input id="Input_1" label="tipoApt" camunda:inputVariable="tipoApt">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_1a1jie3" label="metodoDePago" camunda:inputVariable="metodoDePago">
+        <inputExpression id="LiteralExpression_00s53m1" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="precio" typeRef="double" biodi:width="192" />
+      <rule id="DecisionRule_0axb8tb">
+        <inputEntry id="UnaryTests_0eeaac5">
+          <text>"tipo1"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0klvdvm">
+          <text>"contado"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_12rr8yy">
+          <text>100000000.0</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0p7uq0h">
+        <inputEntry id="UnaryTests_080ppq5">
+          <text>"tipo2"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0adbqfj">
+          <text>"contado"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0piaol4">
+          <text>110000000.0</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1e7h29l">
+        <inputEntry id="UnaryTests_1jquacf">
+          <text>"tipo3"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0552r06">
+          <text>"contado"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1xjkpih">
+          <text>120000000.0</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1aw0057">
+        <inputEntry id="UnaryTests_1thjr1r">
+          <text>"tipo1"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_01m5vcf">
+          <text> "plandepagos"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1d1t5e6">
+          <text>100000000.0</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1xneaip">
+        <inputEntry id="UnaryTests_1d91bvh">
+          <text>"tipo2"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1il3vxx">
+          <text>"plandepagos"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0us5o3v">
+          <text>110000000.0</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0rhn13x">
+        <inputEntry id="UnaryTests_0mje9yw">
+          <text>"tipo3"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_19jw3tm">
+          <text>"plandepagos"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1temaji">
+          <text>120000000.0</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="Clasificar">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

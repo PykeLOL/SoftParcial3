@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_1jip91q" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.15.1" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.19.0">
+  <decision id="Cuota" name="Clasificar Cuota incial">
+    <decisionTable id="DecisionTable_05r5pa1">
+      <input id="Input_1" label="tipoApt">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_00rg7cv" label="metodoDePago">
+        <inputExpression id="LiteralExpression_07g8z7c" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="cuotaInicial" typeRef="double" />
+      <rule id="DecisionRule_0ewt1pl">
+        <inputEntry id="UnaryTests_06bhfua">
+          <text>"Tipo 1"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_05p6e3x">
+          <text>"Contado"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1ajbfbv">
+          <text>30000000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0qqug92">
+        <inputEntry id="UnaryTests_1usd8td">
+          <text>"Tipo 1"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_173hv27">
+          <text>"Plan-pagos</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_05ykm2f">
+          <text>5000000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1s2sq4l">
+        <inputEntry id="UnaryTests_1fjbt23">
+          <text>"Tipo 2"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0yxcvuz">
+          <text>"Contado"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0g5qlm0">
+          <text>33000000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1xcdz8v">
+        <inputEntry id="UnaryTests_1xgd68c">
+          <text>"Tipo 2"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_10a94ql">
+          <text>"Plan-pagos</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_04qyc5y">
+          <text>5500000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_037eg2k">
+        <inputEntry id="UnaryTests_1dyxolt">
+          <text>"Tipo 3"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0fcnlxw">
+          <text>"Contado"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0ywlz2z">
+          <text>36000000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0ftyeji">
+        <inputEntry id="UnaryTests_0gfovm6">
+          <text>"Tipo 3"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_19qr6i9">
+          <text>"Plan-pagos</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1odg69q">
+          <text>6000000</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="Cuota">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

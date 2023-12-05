@@ -1,0 +1,24 @@
+{
+  "components": [
+    {
+      "label": "El codigo fue",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1ddon9b",
+        "columns": null
+      },
+      "id": "Field_1og9e5j",
+      "key": "DIANCode",
+      "defaultValue": "${DIANCode}"
+    }
+  ],
+  "type": "default",
+  "id": "MostrarCodigo",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}

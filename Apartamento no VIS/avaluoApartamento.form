@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "text": "# AValúo del Apartamento",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1elrbff",
+        "columns": null
+      },
+      "id": "Field_1v1bgf2"
+    },
+    {
+      "label": "Number",
+      "type": "number",
+      "layout": {
+        "row": "Row_1elrbff",
+        "columns": null
+      },
+      "id": "Field_1wi5e42",
+      "key": "resultadoAvaluo"
+    }
+  ],
+  "type": "default",
+  "id": "avaluo",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}
